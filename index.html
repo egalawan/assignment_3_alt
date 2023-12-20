@@ -5,8 +5,20 @@
 </head>
 <body>
     <h1>Business Listings</h1>
+    
+    <!-- Filter Inputs -->
+    <div>
+        <label for="nameFilter">Name:</label>
+        <input type="text" id="nameFilter">
+        <label for="typeFilter">Type:</label>
+        <input type="text" id="typeFilter">
+        <label for="locationFilter">Location:</label>
+        <input type="text" id="locationFilter">
+        <button onclick="applyFilters()">Apply Filters</button>
+    </div>
+
     <div id="data-container"></div>
-    <button onclick="loadData()">Load More</button>
+    <button id="loadMoreBtn" onclick="loadData()">Load More</button>
 
     <script src="script.js"></script>
 </body>
