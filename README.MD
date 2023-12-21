@@ -41,7 +41,7 @@ Start up Webpage
 'node index.js' to start up the webpage on localhost:3000
 all that shows up on the page right now is the raw JSON file data.
 
+```
 ![alt text](https://github.com/egalawan/assignment_3_alt/blob/main/assets/Screenshot%202023-12-21%20at%2012.38.58%E2%80%AFAM.png)
 
 
-```
