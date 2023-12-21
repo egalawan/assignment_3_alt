@@ -34,3 +34,11 @@ entries at once
 ```
 
 
+### My Submission
+```
+Start up Webpage
+'docker-compose up' then open another terminal then do
+'node index.js' to start up the webpage on localhost:3000
+all that shows up on the page right now is the raw JSON file data.
+
+```
